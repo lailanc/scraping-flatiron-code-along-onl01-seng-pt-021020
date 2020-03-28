@@ -14,7 +14,7 @@ class Scraper
   #uses a CSS selector to return an array of Nokogiri XML elements representing the courses described on the web page we are scraping" 
   
   def get_courses
-    self.get_page.css ".post"
+    self.get_page.css(".post")
   end 
   
   def make_courses 
