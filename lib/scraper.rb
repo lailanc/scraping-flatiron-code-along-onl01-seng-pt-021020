@@ -11,9 +11,10 @@ class Scraper
   #binding.pry
   end 
   
-  def 
+  def get_courses
+    doc.css = (".post")  
+  end 
   
-  doc.css = ".post"
   
   def print_courses
     self.make_courses
